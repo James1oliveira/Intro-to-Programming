@@ -1,0 +1,23 @@
+/* Container for the bubbles */
+#o {
+  width: 400px;              /* Set fixed width of the container */
+  height: 400px;             /* Set fixed height of the container */
+  position: relative;        /* Allows absolutely positioned child elements (bubbles) to be placed relative to this container */
+  margin-left: auto;         /* Center the container horizontally */
+  margin-right: auto;        /* Center the container horizontally */
+}
+
+/* Style for individual bubble elements */
+.bubble {
+  border: 8px double #7f1497;       /* White border around each bubble */
+  display: block;                  /* Display the span as a block-level element */
+  position: absolute;             /* Allow each bubble to be absolutely positioned inside the container */
+  border-radius: 20px;            /* Make the corners rounded for a bubble effect */
+  -webkit-border-radius: 20px;    /* Border radius for WebKit browsers (Safari, older Chrome) */
+  -moz-border-radius: 20px;       /* Border radius for Mozilla browsers (Firefox) */
+}
+
+/* Background color for the page */
+body {
+  background-color: #363c46;      /* Set the entire page background to a blue shade */
+}
