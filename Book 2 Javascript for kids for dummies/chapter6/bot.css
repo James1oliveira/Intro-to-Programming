@@ -1,0 +1,97 @@
+/* Set default font for the whole page */
+body {
+    font-family: "Times New Roman", Times, serif;
+}
+
+/* Style for all paragraph text */
+p {
+    font-size: 3em; /* Make the text large */
+}
+
+/* Style for both eyes */
+.eye {
+    background-color: rgb(208, 23, 23); /* Blue eyes */
+    width: 30%;
+    height: 30%;
+    border-radius: 50%; /* Circular shape */
+}
+
+/* Style for both arms */
+.arm {
+    background-color: #10a9c1; /* Light gray color */
+    position: absolute; /* Position them freely */
+    top: 35%; /* Align vertically with body */
+    width: 5%;
+    height: 40%;
+}
+
+/* Style for the robot's head */
+#head {
+    width: 30%;
+    height: 30%;
+    border-radius: 15%; /* Slightly rounded edges */
+    background-color: hsl(160, 75%, 2%); /* Light gray */
+    position: absolute;
+    left: 32%; /* Center horizontally */
+    top: 5%; /* Near the top of the page */
+}
+
+/* Position of the right eye */
+#righteye {
+    position: absolute;
+    left: 60%; /* Inside the head, to the left */
+    top: 20%;  /* Towards the top of the head */
+}
+
+/* Position of the left eye */
+#lefteye {
+    position: absolute;
+    left: 40; /* Inside the head, to the right */
+    top: 20%;
+}
+
+/* Style and position for the nose */
+#nose {
+    position: absolute;
+    left: 45%; /* Centered horizontally */
+    top: 50%;  /* Middle of the head */
+    width: 10%;
+    height: 10%;
+    background-color: rgb(21, 234, 110);
+}
+
+/* Style and position for the mouth */
+#mouth {
+    position: absolute;
+    width: 65%;
+    height: 15%;
+    left: 20%;
+    top: 70%;
+    background-color: red; /* Red mouth */
+}
+
+/* Style for the robot's body */
+#body {
+    position: absolute;
+    left: 25%;
+    top: 35%; /* Below the head */
+    width: 45%;
+    height: 55%;
+    background-color: #a46996; /* Same gray as head */
+    text-align: center;
+    padding-top: 30px; /* Push content (text) down a bit */
+}
+
+/* Position of the right arm */
+#rightarm {
+    position: absolute;
+    left: 20%; /* Placed to the left of the body */
+}
+
+/* Position and size of the left arm */
+#leftarm {
+    position: absolute;
+    left: 70%; /* Placed to the right of the body */
+    width: 30%; /* Longer than right arm */
+    height: 7%;  /* Shorter height */
+}
