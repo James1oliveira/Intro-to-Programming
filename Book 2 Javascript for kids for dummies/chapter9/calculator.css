@@ -1,0 +1,63 @@
+/* Set the base font style for the entire page */
+body {
+    font-family: "Courier New", Courier, monospace; /* Monospace font for code-like appearance */
+    font-size: .85em; /* Slightly smaller base font size */
+}
+
+/* Center align the header content */
+header {
+    text-align: center;
+}
+
+/* Style for all <h2> headings */
+h2 {
+    text-align: center; /* Center the text */
+    font-size: 1.2em; /* Slightly larger font size */
+    border-top: 2px dashed rgb(26, 119, 150); /* Top dashed border */
+    border-bottom: 2px dashed rgb(38, 255, 0); /* Bottom dashed border */
+}
+
+/* Style for all text inputs */
+input[type=text] {
+    width: 40px; /* Narrow width suitable for short inputs */
+    height: 40px; /* Square shape */
+    margin-left: 20px; /* Space on the left */
+    background-color: #cf0f2f; /* Light gray background */
+    font-size: 1.2em; /* Slightly larger font for readability */
+}
+
+/* Style for the submit button */
+input[type=submit] {
+    width: 200px; /* Wider button */
+    font-size: 2em; /* Large text for visibility */
+}
+
+/* Style for the calculator container */
+#calculator {
+    border: 1px solid #4dd9a5; /* Light gray border */
+    border-radius: 4px; /* Slight rounding on corners */
+    padding: 4px; /* Small internal spacing */
+}
+
+/* Style for input sections (each step) */
+.input-area {
+    background-color: #339dc3; /* Bright green background */
+    padding: 8px; /* Internal spacing */
+    margin: 8px; /* External spacing between sections */
+    text-align: center; /* Center align contents */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Align operator options to the left */
+.operator-choices {
+    text-align: left;
+}
+
+/* Style for the output area */
+.output-area {
+    background-color: #333333; /* Dark background */
+    color: #ca7195; /* White text */
+    padding: 8px; /* Internal spacing */
+    margin: 8px; /* External spacing */
+    font-size: 1.5em; /* Larger text for emphasis */
+}
