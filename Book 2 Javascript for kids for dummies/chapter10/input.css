@@ -1,0 +1,57 @@
+/* Set a fun, playful font for the entire page */
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: aquamarine;
+}
+
+/* Style the container holding the input fields */
+#inputWords {
+    float: left;              /* Align to the left side of the page */
+    width: 45%;               /* Take up 45% of the available width */
+}
+
+/* Remove default list styling from the <ul> element */
+ul {
+    list-style-type: none;    /* Remove bullet points */
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Style each list item (word input row) */
+li {
+    line-height: 2em;         /* Add vertical spacing between lines */
+    text-transform: uppercase;/* Convert text to uppercase */
+    margin-top: 8px;          /* Add spacing above each input line */
+}
+
+/* Style all text inputs */
+input[type=text] {
+    border-width: 0 0 1px 0;  /* Only show a bottom border */
+    border-color: #65aa63;       /* Dark gray border */
+}
+
+/* Center-align the button */
+#buttonDiv {
+    text-align: center;
+}
+
+/* Style the "Replace it!" button */
+#replaceButton {
+    margin-top: 30px;         /* Add space above the button */
+    width: 200px;             /* Set a consistent button width */
+}
+
+/* Style the story output area */
+#story {
+    margin-top: 12px;         /* Space above the story box */
+    width: 45%;               /* Take up 45% of the width */
+    border: 1px dashed rgb(51, 163, 208);  /* Dashed blue border */
+    padding: 8px;             /* Space inside the story box */
+    float: left;              /* Align to the left side next to inputs */
+}
+
+/* Style for replaced words in the story */
+.replacement {
+    text-decoration: underline;   /* Underline the word */
+    text-transform: uppercase;    /* Display it in uppercase */
+}
