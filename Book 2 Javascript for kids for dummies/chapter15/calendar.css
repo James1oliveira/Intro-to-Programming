@@ -1,0 +1,11 @@
+body {
+    font-family:"Comic Sans MS";
+    background-color: rgb(41, 218, 227);
+}
+#buttonBox {
+    margin-top: 30px;
+}
+#thingToDo {
+    margin-top: 40px;
+    background-color: rgb(53, 61, 200);
+}
